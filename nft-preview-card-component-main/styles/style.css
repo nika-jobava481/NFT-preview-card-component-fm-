@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+body main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .card {
+  padding: 20px;
+  background-color: #14253d;
+  border-radius: 15px;
+  width: 295px;
+  -webkit-box-shadow: -15px 20px 11px 1px #071324;
+          box-shadow: -15px 20px 11px 1px #071324;
+}
+
+body main .card .top {
+  background: url("../images/image-equilibrium.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+body main .card .top .over {
+  width: 100%;
+  height: 100%;
+  background-color: #00fff785;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body main .card .top .over:hover {
+  opacity: 1;
+}
+
+body main .card .bottom h3 {
+  color: #ffffff;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+body main .card .bottom h3:hover {
+  color: #00fff7;
+}
+
+body main .card .bottom p {
+  color: #8bacda;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+body main .card .bottom .balance {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+body main .card .bottom .balance .left {
+  color: #00fff7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .card .bottom .balance .right {
+  color: #8bacda;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .card .bottom .hr {
+  height: 1px;
+  width: 100%;
+  background-color: #2f415b;
+  margin: 10px 0;
+}
+
+body main .card .bottom .profile-info {
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #8bacda;
+}
+
+body main .card .bottom .profile-info .img {
+  height: 30px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+body main .card .bottom .profile-info .img img {
+  width: 100%;
+}
+
+body main .card .bottom .profile-info b {
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+body main .card .bottom .profile-info b:hover {
+  color: #00fff7;
+}
+
+body .attribution {
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  bottom: 15px;
+  color: #ffffff;
+}
+
+body .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
